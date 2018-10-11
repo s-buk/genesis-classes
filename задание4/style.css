@@ -1,0 +1,7 @@
+﻿p {
+    text-align: center
+}
+table {border: 1px solid rgb(0, 0, 0);} 
+td {border: 1px solid rgb(0, 0, 0);} 
+th {border: 1px solid rgb(0, 0, 0);}
+table {border-collapse: collapse;}
