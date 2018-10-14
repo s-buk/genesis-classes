@@ -1,7 +1,51 @@
-﻿p {
-    text-align: center
+﻿@font-face {
+    font-family: Sasha2;
+    src: url(fonts/pattaya-regular.ttf);
 }
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+div{
+    height: 20px;
+}
+
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+p {
+    text-indent: 1.3em;
+    line-height: 2em;
+    text-align:justify;
+    width: 200px;
+}
+
+img {
+     height:200px;
+  }
+
+h1{
+    text-align: center;
+    font-family: Sasha2;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+h2{
+    font-family: Sasha2; 
+    font-size: 1.6rem;
+    letter-spacing:0.26em;
+    text-transform: uppercase;
+}
+
 table {border: 1px solid rgb(0, 0, 0);} 
 td {border: 1px solid rgb(0, 0, 0);} 
-th {border: 1px solid rgb(0, 0, 0);}
+th {
+    border: 1px solid rgb(0, 0, 0);
+    font-style: italic;
+}
 table {border-collapse: collapse;}
