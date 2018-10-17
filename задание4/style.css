@@ -9,7 +9,7 @@ html{
 }
 
 div{
-    height: 20px;
+    text-align: center;
 }
 
 a{
@@ -20,12 +20,10 @@ a{
 p{
     text-indent: 1.3em;
     line-height: 2em;
-    text-align:justify;
-    width: 200px;
 }
 
 img{
-     height:200px;
+    height:200px;
 }
 
 h1{
@@ -33,6 +31,7 @@ h1{
     font-family: 'Sasha2';
     font-size: 3rem;
     text-transform: capitalize;
+    color: goldenrod;
 }
 
 h2{
@@ -40,16 +39,22 @@ h2{
     font-size: 1.6rem;
     letter-spacing:0.26em;
     text-transform: uppercase;
+    color: goldenrod;
 }
 
 table{
     border: 1px solid rgb(0, 0, 0);
     border-collapse: collapse;
+    text-align: center;
 }
 
-td{border: 1px solid rgb(0, 0, 0);} 
+td{
+    border: 1px solid rgb(0, 0, 0);
+} 
 
 th{
     border: 1px solid rgb(0, 0, 0);
     font-style: italic;
+    background-color: darkgray;
+    color: #ffffff;
 }
