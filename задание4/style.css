@@ -1,0 +1,60 @@
+﻿@font-face{
+    font-family: Sasha2;
+    src: url('fonts/pattaya-regular.ttf');
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+div{
+    text-align: center;
+}
+
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+p{
+    text-indent: 1.3em;
+    line-height: 2em;
+}
+
+img{
+    height:200px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Sasha2';
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: goldenrod;
+}
+
+h2{
+    font-family: Sasha2; 
+    font-size: 1.6rem;
+    letter-spacing:0.26em;
+    text-transform: uppercase;
+    color: goldenrod;
+}
+
+table{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+    border: 1px solid rgb(0, 0, 0);
+} 
+
+th{
+    border: 1px solid rgb(0, 0, 0);
+    font-style: italic;
+    background-color: darkgray;
+    color: #ffffff;
+}

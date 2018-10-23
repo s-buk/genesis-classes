@@ -1,0 +1,45 @@
+@font-face{
+    font-family: CocaCola;
+    src: url('fonts/CocaCola.woff');
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Tahoma';
+} 
+    
+div{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+span{
+    font-family: 'CocaCola';
+    font-size: 40px;
+    color:#fad700; 
+    
+}
+
+a{
+    font-family: 'CocaCola';
+    font-size: 28px;
+    color: #a2d3e6;
+ 
+}
+
+p{
+    line-height: 2em;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+img{
+    width: 260px;
+    
+}
