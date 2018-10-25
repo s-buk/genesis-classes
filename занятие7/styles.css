@@ -22,15 +22,11 @@ div{
 span{
     font-family: 'CocaCola';
     font-size: 40px;
-    color:#fad700; 
-    
 }
 
 a{
     font-family: 'CocaCola';
     font-size: 28px;
-    color: #a2d3e6;
- 
 }
 
 p{
@@ -39,7 +35,71 @@ p{
     text-indent: 2em;
 }
 
-img{
+.master{
     width: 260px;
+}
     
+.picture-master{
+    text-align: center; 
+    text-indent: 0em;
+}
+
+.block-one{
+    background-image: url(images/bg-1.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.block-two{
+    background-image: url(images/bg-2.jpg);
+    background-size: 200% 115%;
+    background-position: bottom;
+}
+
+.block-three{
+    background-image: url(images/bg-3.jpg);
+}
+
+.title-one, .title-three{
+    color:#fad700; 
+}
+
+.title-two{
+    color:#b8860b; 
+}
+
+.link-one{
+    color: #a2d3e6;
+}
+
+.link-two{
+    color:#556b2f;
+}
+
+.link-three{
+    color: #808000;
+}
+
+.opacity-block{
+    opacity: 0;
+}
+
+.cell{
+    border-style: solid;
+    border-color: #223d88;
+    border-width: 3px;
+   
+}
+
+.tabl{
+     border-collapse: collapse;
+}
+
+th{
+    text-transform: uppercase;
+}
+
+td{
+    font-variant-caps: all-small-caps;
+    text-align: justify;
 }
