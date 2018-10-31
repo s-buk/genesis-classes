@@ -14,7 +14,7 @@ html{
 } 
     
 
-p{
+.text{
     line-height: 2em;
     text-align: justify;
     text-indent: 2em;
@@ -48,7 +48,7 @@ p{
     width: 100%;
     min-height: 100vh;
     text-align: center;
-   
+    border-top: solid 1px transparent;
     
 }
 
@@ -127,10 +127,11 @@ td{
 .menu li{
     display: inline-block;
     padding: 20px 0px 20px 0px;
+    margin-left: -5px;
     
 }
 
-.menu-link{
+.menu li a{
     text-decoration: none;
     font-family: Impact;
     font-variant: normal;
@@ -138,11 +139,11 @@ td{
     padding: 20px 40px 20px 40px;
 }
 
-.menu-link:hover {
+.menu li a:hover {
     color: rgb(230, 230, 221); /* Цвет ссылки */ 
 } 
 
-.menu-link:active {
+.menu li a:active {
     color: rgb(219, 240, 28); /* Цвет активной ссылки */ 
 }
 
@@ -156,4 +157,13 @@ td{
 
 .link:active {
     color: rgb(219, 240, 28);
+}
+
+.menu li:first-child {
+    background: #ec423d;
+}
+
+.centr{
+    width: 90%;
+    margin: 0 auto;
 }
