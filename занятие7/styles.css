@@ -131,7 +131,7 @@ td{
     
 }
 
-.menu li a{
+.menu a{
     text-decoration: none;
     font-family: Impact;
     font-variant: normal;
@@ -139,11 +139,11 @@ td{
     padding: 20px 40px 20px 40px;
 }
 
-.menu li a:hover {
+.menu a:hover {
     color: rgb(230, 230, 221); /* Цвет ссылки */ 
 } 
 
-.menu li a:active {
+.menu a:active {
     color: rgb(219, 240, 28); /* Цвет активной ссылки */ 
 }
 

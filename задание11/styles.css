@@ -1,0 +1,180 @@
+@font-face { 
+    font-family: 'CocaCola'; 
+    src: url('fonts/CocaCola.woff') format('woff');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+html,
+body{
+	margin: 0;
+	padding: 0; 
+    font-family: 'Segoe UI', 'Tahoma', 'Verdana', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.menu{
+    
+    /*  */
+    position: fixed;
+    /*  */
+
+    font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    background-color: darkslateblue;
+    border-bottom: 4px solid green;
+}
+
+.menu ul{
+    padding: 0;
+    margin: 0;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: left;
+    margin-left: -5px;
+}
+
+.menu a {
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.table2 li{
+    font: bold 1rem 'Segoe UI', 'Tahoma', 'Verdana', sans-serif;
+    list-style-type: circle;
+}
+
+.table2{
+    color: #FFA500;
+}
+
+
+.t2{
+    margin-left: 340px;
+    margin-top: -150px;
+}
+
+.t3{
+    margin-left: 680px;
+    margin-top: -150px;
+}
+
+.punkt{
+    color: white;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contentHeader{
+    padding-top: 40px;
+}
+
+.contentPage1{
+    text-align: center;
+}
+
+.page {
+    border-top: solid 1px transparent;
+	background-color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+.headerPage {
+    
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.page1, .page2, .page3{
+    padding-top: 70px;
+}
+
+.page2{
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-size: 150%;
+    
+}
+
+
+.headerText{
+    line-height: 1.6rem;
+}
+
+.page1Text{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: 'CocaCola';
+    font-size: 30px;
+}
+
+.page3Text{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.next{
+    color: rgba(248, 244, 244, 0.589);
+    font: bold  30px  sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+
+h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title2{
+    color: white;
+    
+}
+
+.imgPage3{
+    width: 100%;
+    opacity: 0.5;
+    
+}
+
+.footer{
+    width: 100%;
+    height: 90px;
+    background-color:#808080;
+    margin-bottom: 120px;
+    margin-top: -80px;
+    color: #fff;
+    
+}
+
+.footerText{
+    color: #fff;
+    padding-top: 35px;
+    font: bold 18px sans-serif;
+}
+
+.menu a:hover {
+    background-color: green;
+}    
+
+.menu li:first-child{
+    background-color: green;
+}
