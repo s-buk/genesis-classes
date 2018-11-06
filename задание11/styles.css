@@ -17,8 +17,9 @@ body{
     
     /*  */
     position: fixed;
+    z-index: 9;
     /*  */
-
+    
     font-size: 18px;
     list-style: none;
     display: inline-block;
@@ -57,12 +58,12 @@ body{
 
 .t2{
     margin-left: 340px;
-    margin-top: -150px;
+    margin-top: -147px;
 }
 
 .t3{
     margin-left: 680px;
-    margin-top: -150px;
+    margin-top: -147px;
 }
 
 .punkt{
