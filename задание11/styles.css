@@ -15,11 +15,10 @@ body{
 
 .menu{
     
-    /*  */
     position: fixed;
+    top: 0%;
     z-index: 9;
-    /*  */
-    
+        
     font-size: 18px;
     list-style: none;
     display: inline-block;
@@ -33,18 +32,9 @@ body{
     margin: 0;
 }
 
-.menu li{
-    display: inline-block;
-    text-align: left;
-    margin-left: -5px;
-}
 
-.menu a {
-    display: inline-block;
-    color: #fff;
-    padding: 20px;
-    text-decoration: none;
-}
+/*  */
+
 
 .table2 li{
     font: bold 1rem 'Segoe UI', 'Tahoma', 'Verdana', sans-serif;
@@ -53,6 +43,7 @@ body{
 
 .table2{
     color: #FFA500;
+    
 }
 
 
@@ -174,8 +165,85 @@ h2{
 
 .menu a:hover {
     background-color: green;
+    
 }    
 
-.menu li:first-child{
+.ul2level a:hover {
     background-color: green;
+    
+}    
+
+.ul1 > li:first-child {
+    background-color: green;
+    
+}
+
+/*  */
+.ul1 li{
+    display: inline-block;
+    text-align: left;
+    margin-left: -5px;
+    position: relative;
+    
+}
+
+.menu a {
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.ul2level a {
+    
+    display: block;
+    padding: 20px;
+   
+}
+
+
+.ul2level{
+    text-align: right;
+    position: absolute;
+    
+    font-size: 0.8em;
+    top: 64px;
+    display:none;
+    color: #fff;
+    background-color: darkslateblue;
+    
+}
+
+.ul3level{
+    text-align: right;
+    position: absolute;
+    width: 160%;
+    font-size: 0.5em;
+    top: 0px;
+    left: 94px;
+    display:none;
+    color: #fff;
+    background-color: darkslateblue;
+   
+}
+
+.ul3level li{
+    display: inline-block;
+    text-align: left;
+    margin-left: 0px;
+    position: relative;
+    
+}
+
+
+.ul1 li:hover .ul2level{
+    display: block;
+    
+    background-color: darkslateblue;
+}
+
+.ul2level li:hover .ul3level{
+    display: inline-block;
+    
+    background-color: darkslateblue;
 }
