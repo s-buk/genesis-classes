@@ -1,0 +1,204 @@
+@font-face { 
+    font-family: 'CocaCola'; 
+    src: url('fonts/CocaCola.woff') format('woff');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+html,
+body{
+	margin: 0;
+	padding: 0; 
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*  */
+img[alt="Картинка"]{
+    
+    opacity: 0.5;
+    
+}
+
+img[alt="Картинка"]:hover{
+    
+    border: solid 1px red;
+    
+    
+}
+
+
+a {
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+
+.menu {
+    position: fixed;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    background-color: darkslateblue;
+    border-bottom: 4px solid green;
+    box-sizing: border-box;
+   
+    z-index: 1000;
+    height: 65px;
+
+    
+    
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.menu li {
+    
+    display: inline-block;
+    margin-left: -5px;
+    /*  */
+    transform: rotate(-30deg);
+    transition: 1s;
+}
+
+.menu li:hover {
+    background-color: green; 
+}
+
+.menu li:active {
+    
+    background-color: orange; 
+}
+
+.menu li:first-child {
+    background-color: green; 
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 100vh;
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.header .content {
+    padding: 15% 0;
+}
+
+.block {
+    box-sizing: border-box;
+    min-height: 100vh;
+	background-color: #fff;
+    padding: 65px 15px 0px 15px;
+}
+
+.header h1{
+   
+    color: #fff;
+    /*  */
+    display: inline-block;
+    transform: scale(2) skew(-30deg);
+
+}
+
+.header p{
+    color: #fff;
+    transform: scale(1,1.4);
+    margin: 50px auto;
+}
+
+.header a{
+    font-size: 30px;
+    font-weight: bold;
+    opacity: .5;
+    /*  */
+    transform: scale(2,1.2);
+}
+
+.header a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+
+.block2 {
+    background-image: url('images/background.jpg');
+    background-attachment: fixed;
+    /*  */
+    background-repeat: repeat;
+    background-position: center center;
+    color: white;
+}
+
+.block2 ul {
+    margin: 0;
+    list-style: circle inside;
+}
+
+.block3 img {
+    width: 100%;
+}
+
+.block3 p {
+    line-height: 25px;
+    text-align: justify;
+    /*  */
+    hyphens: auto;
+    
+}
+
+.title-h2{
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	letter-spacing: 2px;
+}
+
+.red-line{
+    text-indent: 15px;
+}
+
+.cola-text {
+    font-family: 'CocaCola';
+    font-size: 30px;
+    /*  */
+    transform: translate(-60px,60px);
+    
+}
+
+
+/*  */
+.tree-columns-block {
+    column-count: 3;
+}
+
+.tree-columns-block ul  {
+    color: white;
+    font-weight: bold;
+}
+
+.tree-columns-block > ul  {
+    color: orange;
+}
+
+.footer{
+    width: 100%;
+    background-color: gray;
+    padding: 30px 0;
+    color: #ffffff;
+    font-weight: bold;
+}
+
