@@ -15,17 +15,19 @@ body{
 
 /*  */
 img[alt="Картинка"]{
-    
-    opacity: 0.5;
-    
+   
+   
+   
 }
 
 img[alt="Картинка"]:hover{
     
     border: solid 1px red;
-    
+    opacity: 0.8;
     
 }
+
+
 
 
 a {
@@ -65,7 +67,12 @@ a {
     margin-left: -5px;
     /*  */
     transform: rotate(-30deg);
-    transition: 1s;
+    transition: 500ms;
+    
+}
+
+.menu li:hover{
+    transform: rotate(0deg);
 }
 
 .menu li:hover {
@@ -103,6 +110,7 @@ a {
     min-height: 100vh;
 	background-color: #fff;
     padding: 65px 15px 0px 15px;
+    
 }
 
 .header h1{
@@ -202,5 +210,51 @@ a {
     font-weight: bold;
 }
 
+.before1{
+    list-style: none;
+}
 
+.before2 li:before{
+    content: "\f2be";
+    font-family: "FontAwesome";
+}
+
+
+
+/*  */
+.counter li{
+    list-style: none;
+}
+
+
+/*  */
+
+ol { counter-reset: list1; }
+
+ol li:before{
+    counter-increment: list1;
+    content: counter(list1) ". "; 
+}
+
+/*  */
+
+ol ol { counter-reset: list2; } 
+   
+ol ol li:before {
+    counter-increment: list2; 
+    content: counter(list1) "." counter(list2) ". "; 
+}
+
+/*  */
+
+ol ol  ol{ counter-reset: list3; } 
+
+ol ol ol li:before {
+    counter-increment: list3; 
+    content: counter(list1) "." counter(list2) ". " counter(list3) ". "; 
+}
+
+
+
+   
 
