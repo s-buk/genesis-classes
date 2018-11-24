@@ -29,7 +29,6 @@ img[alt="Картинка"]:hover{
 
 
 
-
 a {
     color: #fff;
     padding: 20px;
@@ -51,8 +50,6 @@ a {
     z-index: 1000;
     height: 65px;
 
-    
-    
 }
 
 .menu ul {
@@ -208,7 +205,14 @@ a {
     padding: 30px 0;
     color: #ffffff;
     font-weight: bold;
+    
 }
+
+.containerFooter{
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 .before1{
     list-style: none;
@@ -253,6 +257,104 @@ ol ol ol li:before {
     counter-increment: list3; 
     content: counter(list1) "." counter(list2) ". " counter(list3) ". "; 
 }
+
+/*  */
+
+@media screen and (max-width: 600px){
+    .header h1 {
+        
+        font-size: 12px;
+       margin-top: 0%;
+        padding: 0 0 10px 0;
+    }
+
+    .title-h2{
+        
+    }
+
+    .header a{
+        transform: scale(0.8);
+        
+    }
+
+    .menu{
+        text-align: center;
+
+    }
+
+    .menu a{
+        padding: 10px;
+    
+    }
+
+    .menu li{
+        transform: rotate(0);
+    }
+
+    .menu ul{
+        margin-top: 10px;
+        
+    }
+
+    .cola-text{
+        transform: translate(0);
+        text-align: justify;
+        font-size: 20px;
+
+    }
+
+    .container, .block2{
+        padding: 0%;
+       
+    }
+
+    p{
+        padding-right: 6px;
+    }
+
+    .block3 p{
+        font-size: 0.9em;
+        line-height: 1.4em;
+    }
+
+    .tree-columns-block {
+       padding-top: 15px;
+       
+        column-count: 2;
+       
+    }
+
+
+    .title-h2{
+        padding-top: 10px;
+        font-size: 20px;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+
+    
+    .container{
+        width:90%;
+        margin: 0 auto;
+        padding-top: 80px;
+        
+    }
+    
+    .tree-columns-block ul li ul {
+        font-size: 0.86em;
+        padding-left: 8px;
+           
+    }
+
+    .container.footer{
+        font-size: 0.8em;
+        
+    }
+
+    
+}
+
 
 
 
