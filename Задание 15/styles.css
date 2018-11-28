@@ -12,31 +12,19 @@ body{
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     scroll-behavior: smooth;
 }
-
-/*  */
-img[alt="Картинка"]{
    
-   
-   
-}
 
 img[alt="Картинка"]:hover{
-    
     border: solid 1px red;
     opacity: 0.8;
-    
 }
-
-
 
 a {
     color: #fff;
     padding: 20px;
     display: inline-block;
     text-decoration: none;
-    
 }
-
 
 .menu {
     position: fixed;
@@ -46,26 +34,20 @@ a {
     background-color: darkslateblue;
     border-bottom: 4px solid green;
     box-sizing: border-box;
-   
     z-index: 1000;
     height: 65px;
-
 }
 
 .menu ul {
     padding: 0;
     margin: 0;
-    
 }
 
 .menu li {
-    
     display: inline-block;
     margin-left: -5px;
-    /*  */
     transform: rotate(-30deg);
     transition: 500ms;
-    
 }
 
 .menu li:hover{
@@ -77,7 +59,6 @@ a {
 }
 
 .menu li:active {
-    
     background-color: orange; 
 }
 
@@ -107,16 +88,12 @@ a {
     min-height: 100vh;
 	background-color: #fff;
     padding: 65px 15px 0px 15px;
-    
 }
 
 .header h1{
-   
     color: #fff;
-    /*  */
     display: inline-block;
     transform: scale(2) skew(-30deg);
-
 }
 
 .header p{
@@ -129,7 +106,6 @@ a {
     font-size: 30px;
     font-weight: bold;
     opacity: .5;
-    /*  */
     transform: scale(2,1.2);
 }
 
@@ -138,11 +114,9 @@ a {
     text-decoration: underline;
 }
 
-
 .block2 {
     background-image: url('images/background.jpg');
     background-attachment: fixed;
-    /*  */
     background-repeat: repeat;
     background-position: center center;
     color: white;
@@ -160,9 +134,7 @@ a {
 .block3 p {
     line-height: 25px;
     text-align: justify;
-    /*  */
-    hyphens: auto;
-    
+    hyphens: auto;  
 }
 
 .title-h2{
@@ -179,13 +151,9 @@ a {
 .cola-text {
     font-family: 'CocaCola';
     font-size: 30px;
-    /*  */
     transform: translate(-60px,60px);
-    
 }
 
-
-/*  */
 .tree-columns-block {
     column-count: 3;
 }
@@ -205,14 +173,12 @@ a {
     padding: 30px 0;
     color: #ffffff;
     font-weight: bold;
-    
 }
 
 .containerFooter{
     width: 80%;
     margin: 0 auto;
 }
-
 
 .before1{
     list-style: none;
@@ -223,15 +189,9 @@ a {
     font-family: "FontAwesome";
 }
 
-
-
-/*  */
 .counter li{
     list-style: none;
 }
-
-
-/*  */
 
 ol { counter-reset: list1; }
 
@@ -240,8 +200,6 @@ ol li:before{
     content: counter(list1) ". "; 
 }
 
-/*  */
-
 ol ol { counter-reset: list2; } 
    
 ol ol li:before {
@@ -249,42 +207,31 @@ ol ol li:before {
     content: counter(list1) "." counter(list2) ". "; 
 }
 
-/*  */
+ol ol  ol{counter-reset: list3;} 
 
-ol ol  ol{ counter-reset: list3; } 
 
 ol ol ol li:before {
     counter-increment: list3; 
     content: counter(list1) "." counter(list2) ". " counter(list3) ". "; 
 }
 
-/*  */
-
 @media screen and (max-width: 600px){
     .header h1 {
-        
         font-size: 12px;
-       margin-top: 0%;
+        margin-top: 0%;
         padding: 0 0 10px 0;
-    }
-
-    .title-h2{
-        
     }
 
     .header a{
         transform: scale(0.8);
-        
     }
 
     .menu{
         text-align: center;
-
     }
 
     .menu a{
         padding: 10px;
-    
     }
 
     .menu li{
@@ -293,23 +240,20 @@ ol ol ol li:before {
 
     .menu ul{
         margin-top: 10px;
-        
     }
 
     .cola-text{
         transform: translate(0);
         text-align: justify;
         font-size: 20px;
-
     }
 
     .container, .block2{
         padding: 0%;
-       
     }
 
     p{
-        padding-right: 6px;
+      padding-right: 6px;
     }
 
     .block3 p{
@@ -319,9 +263,7 @@ ol ol ol li:before {
 
     .tree-columns-block {
        padding-top: 15px;
-       
-        column-count: 2;
-       
+       column-count: 2;
     }
 
 
@@ -330,7 +272,6 @@ ol ol ol li:before {
         font-size: 20px;
         margin: 0%;
         padding: 0%;
-        
     }
 
     
@@ -338,21 +279,17 @@ ol ol ol li:before {
         width:90%;
         margin: 0 auto;
         padding-top: 80px;
-        
     }
     
     .tree-columns-block ul li ul {
         font-size: 0.86em;
         padding-left: 8px;
-           
     }
 
     .container.footer{
         font-size: 0.8em;
-        
     }
 
-    
 }
 
 

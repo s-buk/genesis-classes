@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Наш сайт">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лендинг GENESIS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+</head>
+
+<body>
+    <div id="page2" style="width: 100%; background-color: aquamarine; color: black">
+        <ul>
+            <li>
+                <a href="index.html" style="color: black; font: bold 30px Arial; text-decoration:underline">ДОМОЙ</a>
+            </li>
+        </ul>
+        
+        <form method="POST" action="http://temp-eti.tmweb.ru/taxi/mail.php">
+            Имя <input type="text" name="FirstName">
+            Фамилия<input type="text" name="SecondName">
+            <select name="sex">
+                <option>Ваш пол</option>
+                <option>Муж</option>
+                <option>Жен</option>
+            </select>
+            e-mail<input type="text" name="adress">
+            Ознакомлен с условиями<input type="checkbox" name="agreement">
+            <input type="hidden" name="project_name" value="Site Name">
+            <input type="hidden" name="admin_email" value="s-buk@yandex.ru">
+            <input type="hidden" name="form_subject" value="Form Subject">
+            <button>Отправить</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
