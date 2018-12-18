@@ -1,0 +1,205 @@
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+@font-face { 
+    font-family: 'OpenSans'; 
+    src: url('fonts/OpenSansBold.woff') format('woff');
+    /* font-weight: normal; 
+    font-style: normal;  */
+}
+
+.page{
+    width: 1920px;
+    min-height: 100vh;
+    
+    
+    /* display: flex;
+    
+    justify-content: center;
+    align-items: flex-start;
+    
+    align-content: flex-start; */
+
+}
+
+.header{
+    
+    width: 1110px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 14px;
+    left: 405px;
+}
+
+.searchBlock{
+    width: 538px;
+    height: 46px;
+    border: 1px solid #c9d1dd;
+    border-radius:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    border-radius: 20px;
+    border: 0;
+}
+
+.search{
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.button{
+    width: 160px;
+    background-color: #f03c8b;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.search,.button:active{
+    border: 0;  
+}
+
+.basketBlock{
+    width: 168px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basketBlock img{
+    display: block;
+}
+
+
+.basket{
+    
+    text-transform: uppercase;
+    font-family: 'OpenSans'; 
+    font-size: 12px;
+}
+
+.price{
+    
+    color: #a4adbb;
+    font: bold 14px arial;
+}
+
+.priceBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    left:-20px;
+
+}
+
+.menuBlock{
+    
+    width: 1920px;
+    height: 55px;
+    position: absolute;
+    top: 105px;
+    background-color: #333745;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.menu{
+    width: 1110px;
+}
+
+
+.menuBlock li{
+    display: inline;
+    list-style: none;
+}
+
+
+.link1:before{
+    content: url("images/gift.png");
+    position: relative;
+   top: 3px;
+}
+
+.link2:before{
+    content: url("images/pen.png");
+    position: relative;
+   top: 3px;
+}
+
+.link3:before{
+    content: url("images/geo.png");
+    position: relative;
+   top: 3px;
+}
+
+.menuBlock a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.menuBlock a:hover{
+    text-decoration: underline;
+  
+
+}
+
+ul{
+    padding: 0%;
+    width: 665px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.contentMenu{
+    width: 1920px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cloud{
+    width: 255px;
+    height: 45px;
+    background-color: #35afec;
+    border-radius: 20px;
+    position: absolute;
+    right: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wishes{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'OpenSans'; 
+    font-size: 16px;
+    text-transform: uppercase;
+    
+    padding: 0 6px;
+}
+
+.cloud img{
+    display: block;
+    padding: 0 6px;
+}
